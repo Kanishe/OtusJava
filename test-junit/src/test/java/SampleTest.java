@@ -4,10 +4,13 @@ import org.aeonbits.owner.ConfigFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import static org.junit.Assert.assertTrue;
 
 public class SampleTest {
    protected static WebDriver driver;
@@ -23,6 +26,8 @@ public class SampleTest {
       public void openPage() {
         driver.get("https://otus.ru/");
         logger.info("Открыта страница отус");
+        assertTrue(driver.getTitle().contains("Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям"));
+        logger.info(driver.getTitle());
       }
       @After
       public void setDown() {

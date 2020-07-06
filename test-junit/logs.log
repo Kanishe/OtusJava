@@ -18,3 +18,14 @@
 2020-07-06 21:36:01,279 WARN SampleTest [main] warn
 2020-07-06 22:19:04,805 INFO SampleTest [main] Драйвер поднят
 2020-07-06 22:19:07,202 INFO SampleTest [main] Открыта страница отус
+2020-07-06 22:40:01,078 INFO SampleTest [main] Драйвер поднят
+2020-07-06 22:40:05,497 INFO SampleTest [main] Открыта страница отус
+2020-07-06 22:40:05,505 INFO SampleTest [main] ChromeDriver: chrome on MAC (1beed69ab15244d607fa11475e196ffd)
+2020-07-06 22:45:45,160 INFO SampleTest [main] Драйвер поднят
+2020-07-06 22:45:47,525 INFO SampleTest [main] Открыта страница отус
+2020-07-06 22:46:33,927 INFO SampleTest [main] Драйвер поднят
+2020-07-06 22:46:36,717 INFO SampleTest [main] Открыта страница отус
+2020-07-06 22:46:36,731 INFO SampleTest [main] Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям
+2020-07-06 22:47:38,541 INFO SampleTest [main] Драйвер поднят
+2020-07-06 22:47:40,940 INFO SampleTest [main] Открыта страница отус
+2020-07-06 22:47:40,957 INFO SampleTest [main] Title OTUS - 
